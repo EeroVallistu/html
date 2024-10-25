@@ -1,0 +1,54 @@
+h3 {
+    color: powderblue;
+    padding: 40px;
+    border: 400px;
+    maring: 200px;
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:link, a:visited {
+    background-color: #32a893;
+    color: black;
+    padding: 15px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: blue;
+}
+
+body {
+    background-image: url('https://juniper-prod.scene7.com/is/image/junipernetworks/4100-mg-48p-front-top-switches-banner?fmt=png8-alpha&wid=1280&dpr=off');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
